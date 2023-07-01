@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today Wheather</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputField">
+            <input type="text" placeholder="Enter a city name">
+            <button>
+                <span class="material-symbols-outlined" > search</span>
+            </button>
+        </div>
+
+        <div class="heading">
+            <h1 class="city_name">Nagpur</h1>
+            <h2 class="timeing">Monday 7:00 AM </h2>
+        </div>
+
+        <img src="./Images/clouds.png" alt="" id="weatherImage">
+
+        <div class="temprature">
+            <h1 id="temp">22 &#8451;</h1>
+            <h2 class=" greet">GOOD MORNING</h2>
+            <h3 class="greet_Place">NAGPUR</h3>
+        </div>
+        <hr>
+        <div class="Bottom_block">
+            <div class="block1">
+                <span class="material-symbols-outlined">
+                    wb_twilight
+                </span>
+                <h2 class="head">SUNRISE</h2>
+                <h2 class="parameter">7:00</h2>
+            </div>
+
+            <div class="vertical"></div>
+
+            <div class="block2">
+                <span class="material-symbols-outlined">air</span>
+                <h2 class="head">WIND</h2>
+                <h2 class="windpara">4m/s</h2>
+            </div>
+
+            <div class="vertical"></div>
+
+            <div class="block3">
+                <span class="material-symbols-outlined">device_thermostat</span>
+                <h2>HUMIDITY</h2>
+                <h2 class="Humipara">23&deg;</h2>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
