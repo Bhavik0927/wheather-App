@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(190, 181, 168);
+    
+}
+.inputField{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+input{
+    width: 70%;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 17px;
+    font-size: 20px;
+}
+button{
+    margin-left: 7px;
+    outline: none;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+button span{
+    position: relative;
+    top: 4px;
+    left: 2px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.container{
+    border: 2px solid #E5ECF4;
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #E5ECF4;
+    padding: 20px 0px 25px 0px ;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px ;
+}
+.city_name {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize
+}
+.timeing{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;    
+}
+.temprature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;    
+}
+.temprature #temp{
+    font-size: 50px;
+    font-weight: 500;
+}
+.temprature .greet{
+    font-size: 20px;
+    font-weight: 300px;
+    color: grey;
+}
+.temprature .greet_Place{
+    font-size: 20px;
+    font-weight: 300px;
+    color: grey;
+    margin-bottom: 15px;
+    text-transform: capitalize
+}
+hr{
+    width: 10%;
+    margin: auto;
+}
+.Bottom_block{
+    display: flex;
+    margin-top: 20px;
+    font-size: 10px;
+    justify-content: space-evenly;
+}
+.Bottom_block .vertical{
+    border: 1px solid #aa9595;
+    position: relative;
+    top: 56px;
+    height: 50px;
+}
+
+.Bottom_block .block1{
+    color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 25px;
+} 
+.Bottom_block .block1 .parameter{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.Bottom_block .block1 span{
+    font-size: 45px;
+    margin-bottom: 7px;
+}
+
+.Bottom_block .block2{
+    color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 24px;
+} 
+.Bottom_block .block2 .windpara{
+    font-size: 30px;
+    font-weight: 500;
+}
+.Bottom_block .block2 span{
+    font-size: 45px;
+    margin-bottom: 7px;
+}
+
+.Bottom_block .block3{
+    color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 25px;
+} 
+.Bottom_block .block3 .Humipara{
+    font-size: 30px;
+    font-weight: 500;
+}
+.Bottom_block .block3 span{
+    font-size: 45px;
+    margin-bottom: 7px;
+}
